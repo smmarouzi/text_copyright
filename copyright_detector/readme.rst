@@ -17,9 +17,9 @@ The steps to implement similarity detection between two separate texts are:
 In command window go to the path which new uploaded text is saved
 then type this command:
     - make your virtual env and go to this environment
-    - go to this path "~/wattpad/copyright_detector"
+    - go to this path "~/text_copyright/copyright_detector"
     - run $ pip install -r requirements.txt
-    - go to this path "~/wattpad/copyright_detector/copyright_detector"
+    - go to this path "~/text_copyright/copyright_detector/copyright_detector"
     - define two environment variables:
         - copyrighted_works = <path to folder of saved copyrighted works> (~/copyrighted_works)
         - new_text_file = <path to new uploaded file> (~/user_input_1.txt)
@@ -32,5 +32,5 @@ for example run:
                 $ ./main.py -c $copyrighted_works -u $new_text_file
 
 you can install copyright_detector as a package
-    - go to this path "~/wattpad/copyright_detector"
+    - go to this path "~/text_copyright/copyright_detector"
     - run $ pip install .
